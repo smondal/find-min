@@ -1,4 +1,4 @@
-# find-max [![Build Status](https://api.travis-ci.com/smondal/find-max.svg?branch=master)](https://travis-ci.com/smondal/find-max) [![Coverage Status](https://coveralls.io/repos/github/smondal/find-max/badge.svg?branch=master)](https://coveralls.io/github/smondal/find-max?branch=master)
+# find-max [![Build Status](https://api.travis-ci.com/smondal/find-min.svg?branch=master)](https://travis-ci.com/smondal/find-min) [![Coverage Status](https://coveralls.io/repos/github/smondal/find-min/badge.svg?branch=master)](https://coveralls.io/github/smondal/find-min?branch=master)
 
 
 ## Install
