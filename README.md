@@ -1,10 +1,10 @@
-# find-max [![Build Status](https://api.travis-ci.com/smondal/find-min.svg?branch=master)](https://travis-ci.com/smondal/find-min) [![Coverage Status](https://coveralls.io/repos/github/smondal/find-min/badge.svg?branch=master)](https://coveralls.io/github/smondal/find-min?branch=master)
+# find-min [![Build Status](https://api.travis-ci.com/smondal/find-min.svg?branch=master)](https://travis-ci.com/smondal/find-min) [![Coverage Status](https://coveralls.io/repos/github/smondal/find-min/badge.svg?branch=master)](https://coveralls.io/github/smondal/find-min?branch=master)
 
 
 ## Install
 
 ```
-$ npm install @sandipmo/find-min
+$ npm install find-min
 ```
 
 
@@ -13,11 +13,11 @@ $ npm install @sandipmo/find-min
 ```js
 const findMin = require('find-min');
 
-var max = findMin(1, 2, 3, 4)  // 4
+var max = findMin(1, 2, 3, 4)  // 1
 
-var max = findMin([1, 2, 3, 4]) //4
+var max = findMin([1, 2, 3, 4]) //1
 
-var max = findMin({1: 2, 2: 4, 4: 5})  //'4'
+var max = findMin({1: 2, 2: 4, 4: 5})  //'1'
 ```
 
 
