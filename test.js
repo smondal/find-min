@@ -20,3 +20,7 @@ test('object', t => {
 test('array', t => {
 	t.is(findMin([1, 2, 3, 4]), 1);
 });
+
+test('array of array', t => {
+	t.is(findMin([2, 1, 3, 4, [6, 12], [9, 10], [2], 8]), 1);
+});

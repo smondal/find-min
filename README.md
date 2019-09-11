@@ -17,6 +17,9 @@ var min = findMin(1, 2, 3, 4)  // 1
 
 var min = findMin([1, 2, 3, 4]) //1
 
+//Handle array of array
+var max = findMin([2, 1, 3, 4, [6, 12], [9, 10], [2], 8]) // 1
+
 var min = findMin({1: 2, 2: 4, 4: 5})  //'1'
 ```
 

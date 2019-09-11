@@ -1,16 +1,19 @@
 /* eslint no-extend-native: ["error", { "exceptions": ["Array"] }] */
-Array.prototype.flat = function () {
-	return [].concat(...this);
+const flatten = function (arr) {
+	return arr.reduce((flat, toFlatten) => {
+		return flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
+	}, []);
 };
 
 module.exports = (...obj) => {
 	let min;
-	if (obj.flat().length === 0) {
+	if (flatten(obj).length === 0) {
 		return min;
 	}
 
 	if (Array.isArray(...obj)) {
-		min = Math.min.apply(null, ...obj);
+		const flattenarr = flatten(...obj);
+		min = Math.min.apply(null, flattenarr);
 	}	else if (typeof obj === 'object' && Object.keys(...obj).length >= 1) {
 		min = Object.keys(...obj).reduce((a, b) => obj[a] > obj[b] ? b : a);
 	}	else {
