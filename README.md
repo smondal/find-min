@@ -13,11 +13,11 @@ $ npm install find-min
 ```js
 const findMin = require('find-min');
 
-var max = findMin(1, 2, 3, 4)  // 1
+var min = findMin(1, 2, 3, 4)  // 1
 
-var max = findMin([1, 2, 3, 4]) //1
+var min = findMin([1, 2, 3, 4]) //1
 
-var max = findMin({1: 2, 2: 4, 4: 5})  //'1'
+var min = findMin({1: 2, 2: 4, 4: 5})  //'1'
 ```
 
 

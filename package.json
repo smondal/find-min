@@ -1,6 +1,6 @@
 {
  "name": "find-min",
- "version": "1.0.0",
+ "version": "1.0.2",
  "description": "Find minimum number",
  "main": "index.js",
  "repository": "",
