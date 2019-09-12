@@ -36,6 +36,26 @@ var min = findMin({1: 2, 2: 4, 4: 5})  //'1'
 var min = findMin({a: 2, b: 4, c: 5}) //'a'
 ```
 
+## API
+
+### findMin(arguments)
+
+Arguments would be comma separated value. If you not pass any argument it will return you `undefined`
+
+### findMin(Array)
+Type: `Array`
+
+You can pass single array or array or array. If you pass array of array it will first apply `flatten` method to produce single array. Then return the minimum value from array.
+
+If you pass empty array it will return `undefined`.
+
+#### findMin(Object)
+
+Type: `Object`
+
+Compare the value of each key and return the minimum value from Object.
+
+
 
 ## Related
 
