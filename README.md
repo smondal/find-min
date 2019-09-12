@@ -49,7 +49,7 @@ You can pass single array or array or array. If you pass array of array it will 
 
 If you pass empty array it will return `undefined`.
 
-#### findMin(Object)
+### findMin(Object)
 
 Type: `Object`
 
