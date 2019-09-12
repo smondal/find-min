@@ -13,8 +13,12 @@ test('arguments', t => {
 	t.is(findMin(1, 2, 3, 4), 1);
 });
 
-test('object', t => {
+test('integer key', t => {
 	t.is(findMin({1: 2, 2: 4, 4: 5}), '1');
+});
+
+test('string key', t => {
+	t.is(findMin({a: 2, b: 4, c: 5}), 'a');
 });
 
 test('array', t => {
