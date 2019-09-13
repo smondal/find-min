@@ -38,7 +38,7 @@ var min = findMin({a: 2, b: 4, c: 5}) //'a'
 
 ## API
 
-### findMin(arguments)
+### findMin(Arguments)
 
 Arguments would be comma separated value. If you not pass any argument it will return you `undefined`
 
