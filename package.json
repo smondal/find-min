@@ -1,12 +1,12 @@
 {
  "name": "find-min",
- "version": "1.1.0",
+ "version": "1.1.2",
  "description": "Find minimum number form Array or Object or number of arguments",
  "main": "index.js",
  "repository": "https://github.com/smondal/find-min",
  "author": {
-	 "name": "Sandip Mondal",
-	 "email": "sandipmondal85@gmail.com"
+  "name": "Sandip Mondal",
+  "email": "sandipmondal85@gmail.com"
  },
  "engines": {
   "nodejs": ">=8"
@@ -15,12 +15,15 @@
   "test": "xo && nyc ava",
   "ava": "ava"
  },
+ "files": [
+  "index.js"
+ ],
  "keywords": [
   "minimum",
   "minnumber",
-	"min",
-	"findmin",
-	"searchmin",
+  "min",
+  "findmin",
+  "searchmin",
   "find",
   "search"
  ],
@@ -29,6 +32,7 @@
   "ava": "^2.3.0",
   "coveralls": "^3.0.6",
   "nyc": "^14.1.1",
+  "prettier": "1.18.2",
   "xo": "^0.24.0"
  },
  "nyc": {
